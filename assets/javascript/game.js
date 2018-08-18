@@ -11,7 +11,7 @@ console.log("compGuess " + compGuess)
 console.log("---------")
 
 function reset(){
-    var compGuess = compLetters[Math.floor(Math.random() * len)];
+    compGuess = compLetters[Math.floor(Math.random() * len)];
     guessLeft = 9;
     document.getElementById("guessLeft").innerText = guessLeft
     guessed = [];
